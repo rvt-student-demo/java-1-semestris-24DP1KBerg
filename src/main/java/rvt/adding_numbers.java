@@ -60,6 +60,8 @@ public class adding_numbers
 
         System.out.println("Average: " + average);
 
+        scanner.close();
+
     }   
 }
     
