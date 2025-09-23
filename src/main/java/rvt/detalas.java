@@ -6,6 +6,11 @@ public class detalas
 {
     public static void main(String[] arg)
     {   
+
+        final int cena_skruvem = 5;
+        final int cena_uzgreizniem = 3;
+        final int cena_paplaksnu = 1;
+        
         Scanner scanner = new Scanner(System.in);
         
         System.out.print("Skruvju skaits:\n");
@@ -16,10 +21,7 @@ public class detalas
         int paplāksņu = scanner.nextInt();
         
         int salidzinajums = skruvju + uzgriezņu;
-        int cena1 = 5 * skruvju;
-        int cena2 = 3 * uzgriezņu;
-        int cena3 = 1 * paplāksņu;
-        int summa = cena1 + cena2 + cena3;
+        final int summa = (skruvju * cena_skruvem) + (uzgriezņu * cena_uzgreizniem) + (paplāksņu * cena_paplaksnu);
 
         if (skruvju < uzgriezņu) 
         {
