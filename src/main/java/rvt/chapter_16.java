@@ -19,11 +19,11 @@ public class chapter_16
 
     public static void InRange(int number) 
     {  
+        int sum = 0;
         int i = 1;
-        int sum = number;
-        while (i < number) {
-            sum = sum + i;
-            
+        while (i < number + 1) {
+            int square = i * i;
+            sum = sum + square;
             i++; 
         }
         System.out.println(sum);
