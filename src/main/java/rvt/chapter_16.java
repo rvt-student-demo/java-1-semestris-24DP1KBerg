@@ -9,22 +9,24 @@ public class chapter_16
     {
         
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter start");
-        int first = Integer.valueOf(scanner.nextLine());
-        System.out.println("Enter end");
-        int last = Integer.valueOf(scanner.nextLine());
+        System.out.println("Enter number");
+        int numb = Integer.valueOf(scanner.nextLine());
         System.out.println();
-        InRange(first, last);
+        InRange(numb);
         scanner.close();
     }
 
 
-    public static void InRange(int starting, int ending) {  
-        int i = starting;
-        while (i < ending + 1) {
-            System.out.println(i);
+    public static void InRange(int number) 
+    {  
+        int i = 1;
+        int sum = number;
+        while (i < number) {
+            sum = sum + i;
+            
             i++; 
         }
+        System.out.println(sum);
     }
     
 }
