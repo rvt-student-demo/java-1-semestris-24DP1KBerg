@@ -5,7 +5,7 @@ public class From_paramater_to_one
 
     public static void main(String[] args)
     {
-        divisibleByThreeInRange(2, 9);
+        divisibleByThreeInRange(3, 9);
 
     }
 
@@ -18,7 +18,7 @@ public class From_paramater_to_one
                 System.out.println(i);
             }
             
-            i++;
+            i++; 
         }
     }
 }
