@@ -36,6 +36,7 @@ public class arrays {
         int[] numbers2 = {5, 1, 3, 4, 2};
         System.out.println();
         System.out.println("SUMMA {5, 1, 3, 4, 2}: " + sumOfNumbersInArray(numbers2));
+        printArrayInStars(numbers2);
         scanner.close();
     }
 
@@ -49,7 +50,14 @@ public class arrays {
         return sum; // return the total
     }
 
+    public static void printArrayInStars(int[] array)
+    {
 
-
-
+        for (int i = 0; i < array.length; i++) { // loop through each element
+            for (int j = 0; j < array[i]; j++) { // loop to print stars
+                System.out.print("*");
+            }
+            System.out.println(); // go to next line after printing stars
+        }
+    }
 }
