@@ -33,6 +33,23 @@ public class arrays {
             System.out.println(numbers[i]);
         }
 
+        int[] numbers2 = {5, 1, 3, 4, 2};
+        System.out.println();
+        System.out.println("SUMMA {5, 1, 3, 4, 2}: " + sumOfNumbersInArray(numbers2));
         scanner.close();
     }
+
+    public static int sumOfNumbersInArray(int[] array) {
+        int sum = 0; // initialize sum
+
+        for (int number : array) { // loop through all elements
+            sum += number; // add each element to sum
+        }
+
+        return sum; // return the total
+    }
+
+
+
+
 }
