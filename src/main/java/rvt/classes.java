@@ -14,25 +14,37 @@ public class classes
         statistics.addNumber(1);
         statistics.addNumber(2);
         System.out.println("Count: " + statistics.getCount());
-
-
+        System.out.println("Sum: " + statistics.sum());
+        System.out.println("Average: " + statistics.average());
 
     }
 
     public static class Statistics {
         private int count;
-
+        private int sum;
+  
 
         public Statistics() {
             count = 0;
+            sum = 0;
         }
     
         public void addNumber(int number) {
             count++;
+            sum = sum + number;
         }
     
         public int getCount() { 
             return count;
         }
-    }
+
+        public int sum() {
+            return sum;
+        }
+
+        public double average() {
+            double average = (double) sum / count;
+            return average;
+        }
+    }   
 }
