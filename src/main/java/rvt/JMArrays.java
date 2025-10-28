@@ -2,11 +2,14 @@ package rvt;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class JMArrays {
+public class JMArrays 
+{
     public static void main(String[] args) 
     {
-        onlyTheseNumber();
-        listSize();
+      onlyTheseNumber();
+      listSize();
+      onTheList();
+      testRemoveLast();
     }
 
 
@@ -75,6 +78,60 @@ public class JMArrays {
       scanner.close();
    }
 
+   public static void onTheList()
+   {
+
+    Scanner scanner = new Scanner(System.in);
+      ArrayList<String> names = new ArrayList<>();
+      String name;
+      while (true) 
+      {
+        name = scanner.nextLine(); 
+
+        if (name == "") 
+        {   
+            break;
+        } else {
+            names.add(name);
+        }
+      }
+      System.out.print("Search for: ");
+      String search = scanner.nextLine();
+
+      if (names.contains(search)) 
+      {
+        System.out.println(search + " was found!");
+      }
+      else
+      {
+        System.out.println(search + " was NOT found!");
+      }
+      scanner.close();
+   }
+
+
+
+   public static void removeLast(ArrayList<String> strings)
+    {
+      if (!strings.isEmpty()) 
+        {
+          strings.remove(strings.size() - 1);
+        }
+    }
+
+    public static void testRemoveLast() {
+        ArrayList<String> strings = new ArrayList<>();
+        strings.add("First");
+        strings.add("Second");
+        strings.add("Third");
+
+        System.out.println(strings);
+
+        removeLast(strings);
+        removeLast(strings);
+
+        System.out.println(strings);
+  }
 }
 
 
