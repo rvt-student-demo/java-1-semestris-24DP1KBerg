@@ -157,21 +157,51 @@ public class Chapter_44 {
 
     //excersise 5
 
-    public static void ex5(){
+    public static void ex5() {
 
         Scanner scanner = new Scanner(System.in);
-        String emptySpace = "\n";
-        String finalResult = "";
-
-        while (scanner.hasNextLine()) {
+        
+        //Checks if the scanner has anyhing in the next line (use ctrl + z + enter) to stop the programme
+        while (scanner.hasNextLine()) { 
             String line = scanner.nextLine();
-            if (line.trim().toLowerCase().indexOf("//") == 0) {
-                finalResult = emptySpace.concat(line);
-            }         
+            
+            //If the line starts with // print out the line
+            if (line.trim().startsWith("//")) {
+                System.out.println(line);
+            }
         }
-
-        System.out.println(finalResult);
+    
         scanner.close();
     }
 
+    //ecersise 6
+
+    public static void ex6(){
+
+        Scanner scanner = new Scanner(System.in);
+        
+        //Checks if the scanner has anyhing in the next line (use ctrl + z + enter) to stop the programme
+        while (scanner.hasNextLine()) { 
+            String line = scanner.nextLine();
+            
+            //If the line starts with // print out the line
+            if (line.trim().startsWith("//")) {
+                System.out.println(line);
+            }
+
+            if (line.trim().startsWith("/*") == true) {
+                
+                
+               if (line.trim().startsWith("*\\") ){
+                    break;
+               }
+
+
+                
+            }
+        }
+    
+        scanner.close();
+
+    }
 }   
