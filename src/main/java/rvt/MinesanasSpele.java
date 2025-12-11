@@ -29,6 +29,6 @@ public class MinesanasSpele
                 guesses++;
             }
         }
-        scanner.close();
+        scanner.close(); // close scanner
     }
 }
