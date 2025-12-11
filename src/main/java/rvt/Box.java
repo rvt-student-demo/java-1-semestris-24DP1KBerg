@@ -10,7 +10,7 @@ public class Box {
     private final double height;
     private final double length;
 
-    // Constructor: Box(width, height, length) ss
+    // Constructor: Box(width, height, length) sss
     public Box(double width, double height, double length) {
         this.width = width;
         this.height = height;
