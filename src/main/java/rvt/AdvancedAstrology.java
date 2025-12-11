@@ -4,12 +4,12 @@ public class AdvancedAstrology {
 
 
     public static void main(String[] args) {
-        // test calls
+        // test calls s
         printTriangle(4);
         System.out.println("---");
         christmasTree(4);
     }
-    
+
     public static void printStars(int number) {
         for (int i = 0; i < number; i++) {
             System.out.print("*");
@@ -37,7 +37,7 @@ public class AdvancedAstrology {
             printStars(2 * i - 1);
         }
 
-        // Tree base
+        // Tree base swad
         for (int i = 0; i < 2; i++) {
             printSpaces(height - 2);
             printStars(3);
