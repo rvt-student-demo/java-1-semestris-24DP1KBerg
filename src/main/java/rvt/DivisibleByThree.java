@@ -12,7 +12,7 @@ public class DivisibleByThree {
     }
 
     public static void main(String[] args) {
-        divisibleByThreeInRange(3, 6);
+        divisibleByThreeInRange(3, 6); // 3, 6 
     }
 }
 
