@@ -3,7 +3,7 @@ package rvt;
 import java.util.Scanner;
 
 public class GiftTax {
-    public static void main(String[] args) {
+    public static void main(String[] args) { // s
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Value of the gift? ");
