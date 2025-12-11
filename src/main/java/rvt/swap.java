@@ -29,7 +29,7 @@ public class swap {
         numbers[first] = numbers[second];
         numbers[second] = temp;
 
-        // Print swapped array
+        // Print swapped array second time
         for (int i = 0; i < numbers.length; i++) {
             System.out.println(numbers[i]);
         }
