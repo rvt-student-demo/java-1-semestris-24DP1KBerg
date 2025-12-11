@@ -47,7 +47,7 @@ public class RepeatingBreakingAndRemembering5Parts
         System.out.println("Even: " + even);
         System.out.println("Odd: " + odd);
 
-        scanner.close();
+        scanner.close(); // should close scanner
     }
 
 }
