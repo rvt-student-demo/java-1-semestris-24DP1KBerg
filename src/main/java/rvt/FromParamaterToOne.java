@@ -1,6 +1,6 @@
 package rvt;
 
-public class From_paramater_to_one 
+public class FromParamaterToOne 
 {
 
     public static void main(String[] args)

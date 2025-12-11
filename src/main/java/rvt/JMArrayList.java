@@ -2,7 +2,7 @@ package rvt;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class JMArrays 
+public class JMArrayList 
 {
     public static void main(String[] args) 
     {

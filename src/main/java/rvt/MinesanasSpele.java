@@ -1,7 +1,7 @@
 package rvt;
 import java.util.Random;
 import java.util.Scanner;
-public class spele_random_numb 
+public class MinesanasSpele 
 {
     public static void main(String[] args)
     {

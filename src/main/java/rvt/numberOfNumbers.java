@@ -2,7 +2,7 @@ package rvt;
 
 import java.util.Scanner;
 
-public class number_of_numbers
+public class numberOfNumbers
 {
 
     public static void main(String[] args)

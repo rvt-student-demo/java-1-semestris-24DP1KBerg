@@ -2,7 +2,7 @@ package rvt;
 
 import java.util.Scanner;
 
-public class parts_5
+public class RepeatingBreakingAndRemembering5Parts
 {
 
     public static void main(String[] args)
