@@ -16,7 +16,7 @@ public class JMArrayList
 
     public static void onlyTheseNumber()
     {
-
+      // s
         Scanner scanner = new Scanner(System.in);
       ArrayList<Integer> numbers = new ArrayList<>();
       int i =0;
