@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class GradesAndPoints {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); // s
 
         System.out.print("Give points [0-100]: ");
         int points = Integer.parseInt(scanner.nextLine());
