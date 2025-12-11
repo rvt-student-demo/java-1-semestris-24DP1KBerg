@@ -27,7 +27,7 @@ public class numberOfNumbers
         }
         System.out.println("Number of numbers: " + numbers);
 
-        scanner.close();
+        scanner.close(); // close scanner
     }
 
 }
