@@ -18,7 +18,7 @@ public class FromParamaterToOne
                 System.out.println(i);
             }
             
-            i++; 
+            i++; // shorthand for i = i + 1
         }
     }
 }
